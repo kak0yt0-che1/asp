@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Accessible Interactive Photo Gallery</h1>
+
+    <div id="image">Hover over an image below to display here.</div>
+
+    <div class="gallery">
+        <figure>
+            <img src="image3.jpg" alt="Venus" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Venus</figcaption>
+        </figure>
+
+        <figure>
+            <img src="image1.jpg" alt="Moon" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Moon</figcaption>
+        </figure>
+
+        <figure>
+            <img src="image2.jpeg" alt="Mars" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Mars</figcaption>
+        </figure>
+
+        <figure>
+            <img src="image4.jpeg" alt="Jupiter" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Jupiter</figcaption>
+        </figure>
+
+        <figure>
+            <img src="image5.jpeg" alt="Saturn" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Saturn</figcaption>
+        </figure>
+
+        <figure>
+            <img src="image6.jpeg" alt="Neptune" tabindex="0" onfocus="upDate(this)" onblur="undo()" onmouseover="upDate(this)" onmouseleave="undo()">
+            <figcaption>Neptune</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
